@@ -1,0 +1,395 @@
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Runner: processes
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Chooser: simple
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration suite_name = "test suite"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration cache_filename = "/Users/kjk225/3110/a4/_build/oUnit-$(suite_name).cache"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration display = "true"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration results_style_1_X = "false"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration verbose = "false"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration health_check_interval = "1."
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration testdata_dir = "none"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration chooser = "simple"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration output_html_dir = "none"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration processes_kill_period = "5."
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration runner = "processes"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration shards = "2"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration processes_grace_period = "5."
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration log_encoding = "utf-8"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration output_junit_file = "none"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Configuration output_file = "/Users/kjk225/3110/a4/_build/oUnit-$(suite_name)-$(shard_id).log"
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Using 2 workers maximum.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Starting worker number dhcp-gs-7433.eduroam.cornell.edu#01.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Worker dhcp-gs-7433.eduroam.cornell.edu#01 started.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Starting worker number dhcp-gs-7433.eduroam.cornell.edu#02.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Worker dhcp-gs-7433.eduroam.cornell.edu#02 started.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:1:eval_int, test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:1:eval_int, test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:0:eval_unit is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:1:eval_int, test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:1:eval_int, test suite:0:eval_unit.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:2:eval_boolt, test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:2:eval_boolt, test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:1:eval_int is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:2:eval_boolt, test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:2:eval_boolt, test suite:1:eval_int.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:3:eval_boolf, test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:3:eval_boolf, test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:2:eval_boolt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:3:eval_boolf, test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:3:eval_boolf, test suite:2:eval_boolt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:4:eval_string, test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:4:eval_string, test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:3:eval_boolf is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:4:eval_string, test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:4:eval_string, test suite:3:eval_boolf.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:5:eval_binop +, test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:5:eval_binop +, test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:4:eval_string is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:5:eval_binop +, test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:5:eval_binop +, test suite:4:eval_string.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:6:eval_binop -, test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:6:eval_binop -.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:6:eval_binop -, test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:5:eval_binop + is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:6:eval_binop -, test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:6:eval_binop -, test suite:5:eval_binop +.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:7:eval_binop *, test suite:6:eval_binop -.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:6:eval_binop - is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:7:eval_binop *, test suite:6:eval_binop -.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:6:eval_binop -.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:7:eval_binop *, test suite:6:eval_binop -.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:8:eval_binop gt, test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:8:eval_binop gt, test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:7:eval_binop * is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:8:eval_binop gt, test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:8:eval_binop gt, test suite:7:eval_binop *.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:9:eval_binop lt, test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:9:eval_binop lt, test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:8:eval_binop gt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:9:eval_binop lt, test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:9:eval_binop lt, test suite:8:eval_binop gt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:10:eval_binop eq, test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:10:eval_binop eq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:10:eval_binop eq, test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:9:eval_binop lt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:10:eval_binop eq, test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:10:eval_binop eq, test suite:9:eval_binop lt.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:11:eval_binop gteq, test suite:10:eval_binop eq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:10:eval_binop eq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:11:eval_binop gteq, test suite:10:eval_binop eq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:10:eval_binop eq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:11:eval_binop gteq, test suite:10:eval_binop eq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:12:eval_binop lteq, test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:12:eval_binop lteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:12:eval_binop lteq, test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:11:eval_binop gteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:12:eval_binop lteq, test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:12:eval_binop lteq, test suite:11:eval_binop gteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:12:eval_binop lteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:13:eval_binop noteq, test suite:12:eval_binop lteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:12:eval_binop lteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:13:eval_binop noteq, test suite:12:eval_binop lteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:14:eval_pair, test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:14:eval_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:14:eval_pair, test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:13:eval_binop noteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:14:eval_pair is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:14:eval_pair, test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:14:eval_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:14:eval_pair, test suite:13:eval_binop noteq.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:16:eval_if, test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:16:eval_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:16:eval_if, test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:15:eval_Variant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:16:eval_if, test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:16:eval_if is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:16:eval_if, test suite:15:eval_Variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:16:eval_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:17:eval_if2, test suite:16:eval_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:18:eval_7, test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:18:eval_7, test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:18:eval_7.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:18:eval_7, test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:17:eval_if2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:18:eval_7, test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:18:eval_7 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:18:eval_7, test suite:17:eval_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:18:eval_7.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:19:eval_6, test suite:18:eval_7.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:20:eval_4, test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:20:eval_4.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:20:eval_4, test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:19:eval_6 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:20:eval_4, test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:20:eval_4, test suite:19:eval_6.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:21:eval_5, test suite:20:eval_4.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:20:eval_4 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:21:eval_5, test suite:20:eval_4.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:20:eval_4.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:21:eval_5, test suite:20:eval_4.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:22:eval_app, test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:22:eval_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:22:eval_app, test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:21:eval_5 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:22:eval_app, test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:22:eval_app, test suite:21:eval_5.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:23:eval_let, test suite:22:eval_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:22:eval_app is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:23:eval_let, test suite:22:eval_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:22:eval_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:23:eval_let, test suite:22:eval_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:24:eval_letrec, test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:24:eval_letrec, test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:23:eval_let is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:24:eval_letrec, test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:24:eval_letrec, test suite:23:eval_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:25:eval_match, test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:25:eval_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:25:eval_match, test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:24:eval_letrec is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:25:eval_match, test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:25:eval_match, test suite:24:eval_letrec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:26:eval_2, test suite:25:eval_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:25:eval_match is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:26:eval_2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:26:eval_2, test suite:25:eval_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:25:eval_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:26:eval_2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:26:eval_2, test suite:25:eval_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:26:eval_2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:27:eval_1, test suite:26:eval_2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:28:infer_inc, test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:28:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:28:infer_inc, test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:27:eval_1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:28:infer_inc, test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:28:infer_inc, test suite:27:eval_1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:29:infer_inc, test suite:28:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:28:infer_inc is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:29:infer_inc, test suite:28:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:28:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:29:infer_inc, test suite:28:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:30:infer_app, test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:30:infer_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:30:infer_app, test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:29:infer_inc is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:30:infer_app, test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:30:infer_app, test suite:29:infer_inc.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:31:infer_inc1, test suite:30:infer_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:30:infer_app is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:31:infer_inc1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:31:infer_inc1, test suite:30:infer_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:30:infer_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:31:infer_inc1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:31:infer_inc1, test suite:30:infer_app.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:31:infer_inc1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:32:infer_if, test suite:31:infer_inc1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:33:infer_if2, test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:33:infer_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:33:infer_if2, test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:33:infer_if2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:33:infer_if2, test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:32:infer_if is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:33:infer_if2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:33:infer_if2, test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:34:infer_if3, test suite:32:infer_if.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:35:infer_pair, test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:35:infer_pair, test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:35:infer_pair, test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:34:infer_if3 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:35:infer_pair, test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:35:infer_pair, test suite:34:infer_if3.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:36:infer_let, test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:36:infer_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:36:infer_let, test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:35:infer_pair is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:36:infer_let, test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:36:infer_let, test suite:35:infer_pair.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:36:infer_let is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:37:infer_variant, test suite:36:infer_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:36:infer_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:37:infer_variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:37:infer_variant, test suite:36:infer_let.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:38:infer_rec, test suite:37:infer_variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:37:infer_variant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:38:infer_rec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:38:infer_rec, test suite:37:infer_variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:37:infer_variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:38:infer_rec is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:38:infer_rec, test suite:37:infer_variant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:38:infer_rec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:39:infer_fun, test suite:38:infer_rec.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:40:infer_variant2, test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:40:infer_variant2, test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:40:infer_variant2, test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:39:infer_fun is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:40:infer_variant2, test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:40:infer_variant2, test suite:39:infer_fun.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:41:infer_match, test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:41:infer_match, test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:40:infer_variant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:41:infer_match, test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:41:infer_match, test suite:40:infer_variant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:42:infer_matchVariant, test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:42:infer_matchVariant, test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:41:infer_match is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:42:infer_matchVariant, test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:42:infer_matchVariant, test suite:41:infer_match.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:43:infer_matchVariant2, test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:43:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:43:infer_matchVariant2, test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:42:infer_matchVariant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:43:infer_matchVariant2, test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:43:infer_matchVariant2, test suite:42:infer_matchVariant.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:44:infer_matchVariant2, test suite:43:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:43:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:44:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:44:infer_matchVariant2, test suite:43:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:43:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:44:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:44:infer_matchVariant2, test suite:43:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:44:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:45:infer_matchVariant2, test suite:44:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:46:variant_recursive1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:46:variant_recursive1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:46:variant_recursive1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Start test test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:46:variant_recursive1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:46:variant_recursive1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:46:variant_recursive1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:46:variant_recursive1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:46:variant_recursive1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 2 tests running : test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Start test test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 2 tests running : test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: Test test suite:45:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 2 tests running : test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#02 I: End test test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 2 tests running : test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 2 tests running: test suite:47:variant_funky1, test suite:45:infer_matchVariant2.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 1 tests running : test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 1 tests running: test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: Test test suite:47:variant_funky1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 1 tests running : test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 1 tests running: test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#01 I: End test test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Still 1 tests running : test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 1 tests running: test suite:47:variant_funky1.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: 0 tests running: .
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Worker dhcp-gs-7433.eduroam.cornell.edu#02 has ended.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Worker dhcp-gs-7433.eduroam.cornell.edu#01 has ended.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Used 2 worker during test execution.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Run 22 tests with shard dhcp-gs-7433.eduroam.cornell.edu#02.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Run 26 tests with shard dhcp-gs-7433.eduroam.cornell.edu#01.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: ==============
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Summary:
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:47:variant_funky1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:45:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:46:variant_recursive1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:44:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:43:infer_matchVariant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:42:infer_matchVariant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:41:infer_match is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:40:infer_variant2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:39:infer_fun is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:38:infer_rec is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:37:infer_variant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:36:infer_let is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:35:infer_pair is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:34:infer_if3 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:32:infer_if is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:33:infer_if2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:31:infer_inc1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:30:infer_app is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:29:infer_inc is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:28:infer_inc is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:27:eval_1 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:26:eval_2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:25:eval_match is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:24:eval_letrec is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:23:eval_let is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:22:eval_app is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:21:eval_5 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:20:eval_4 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:19:eval_6 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:18:eval_7 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:17:eval_if2 is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:16:eval_if is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:15:eval_Variant is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:14:eval_pair is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:13:eval_binop noteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:12:eval_binop lteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:11:eval_binop gteq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:10:eval_binop eq is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:9:eval_binop lt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:8:eval_binop gt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:7:eval_binop * is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:6:eval_binop - is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:5:eval_binop + is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:4:eval_string is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:3:eval_boolf is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:2:eval_boolt is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:1:eval_int is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Test test suite:0:eval_unit is successful.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Ran: 48 tests in: 0.14 seconds.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Cases: 48.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Tried: 48.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Errors: 0.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Failures: 0.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Skip: 0.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Todo: 0.
+2016-11-03T22:28:03+00:00 dhcp-gs-7433.eduroam.cornell.edu#00 I: Timeout: 0.

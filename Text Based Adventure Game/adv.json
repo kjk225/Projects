@@ -1,0 +1,73 @@
+{
+	"rooms": [{
+		"id": "kitchen",
+		"description": "This is the kitchen. Go left to go into the living room.\nYou should drop the food of here.",
+		"points": 1,
+		"exits": [{
+			"direction": "left",
+			"room_id": "living room"
+		}],
+		"treasure": ["food"]
+	}, {
+		"id": "living room",
+		"description": "This is the living room.  Go upstairs to go to the bathroom.\nYou should drop the remote here.",
+		"points": 10,
+		"exits": [{
+			"direction": "upstairs",
+			"room_id": "bathroom"
+		}],
+		"treasure": ["remote"]
+	}, {
+		"id": "bathroom",
+		"description": "This is the bathroom.  Go down the hall to your bedroom for a suprise.\nYou should drop the toothbrush here.",
+		"points": 100,
+		"exits": [{
+			"direction": "down the hall",
+			"room_id": "bedroom"
+		}],
+		"treasure": ["toothbrush"]
+	}, {
+		"id": "bedroom",
+		"description": "This is the bedroom.  Go under the bed to see whats there.\nYou should drop the keys here.",
+		"points": 1000,
+		"exits": [{
+			"direction": "under the bed",
+			"room_id": "floor"
+		}],
+		"treasure": ["keys"]
+	}, {
+		"id": "floor",
+		"description": "You're on the floor under the bed and you've just found $1000 dollars. You win.\nYou should drop the class here.",
+		"points": 10000,
+		"exits": [],
+		"treasure": ["class"]
+	}],
+
+	"start_room": "kitchen",
+
+	"items": [{
+		"id": "food",
+		"description": "groceries",
+		"points": 10000
+	}, {
+		"id": "remote",
+		"description": "tv remote",
+		"points": 10
+	}, {
+		"id": "toothbrush",
+		"description": "teeth cleaning device",
+		"points": 10
+	}, {
+		"id": "keys",
+		"description": "car keys",
+		"points": 10
+	}, {
+		"id": "class",
+		"description": "",
+		"points": 100000
+	}],
+
+	"start_inv": ["food", "remote", "toothbrush", "keys", "class"],
+
+	"start_locations": []
+}

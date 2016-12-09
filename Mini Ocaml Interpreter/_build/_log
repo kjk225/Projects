@@ -1,0 +1,72 @@
+### Starting build.
+# Target: test.ml.depends, tags: { extension:ml, file:test.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules test.ml > test.ml.depends
+# Target: ast.mli.depends, tags: { extension:mli, file:ast.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules ast.mli > ast.mli.depends # cached
+# Target: ast.cmi, tags: { byte, compile, extension:mli, file:ast.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o ast.cmi ast.mli # cached
+# Target: eval.mli.depends, tags: { extension:mli, file:eval.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules eval.mli > eval.mli.depends # cached
+# Target: eval.cmi, tags: { byte, compile, extension:mli, file:eval.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o eval.cmi eval.mli # cached
+# Target: infer.mli.depends, tags: { extension:mli, file:infer.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules infer.mli > infer.mli.depends # cached
+# Target: typedAst.mli.depends, tags: { extension:mli, file:typedAst.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules typedAst.mli > typedAst.mli.depends # cached
+# Target: typedAst.cmi, tags: { byte, compile, extension:mli, file:typedAst.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o typedAst.cmi typedAst.mli # cached
+# Target: infer.cmi, tags: { byte, compile, extension:mli, file:infer.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o infer.cmi infer.mli # cached
+# Target: parse.mli.depends, tags: { extension:mli, file:parse.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules parse.mli > parse.mli.depends # cached
+# Target: parse.cmi, tags: { byte, compile, extension:mli, file:parse.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o parse.cmi parse.mli # cached
+# Target: test.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:test.cmo, file:test.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o test.cmo test.ml
+# Target: ast.ml.depends, tags: { extension:ml, file:ast.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules ast.ml > ast.ml.depends # cached
+# Target: ast.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ast.cmo, file:ast.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o ast.cmo ast.ml # cached
+# Target: eval.ml.depends, tags: { extension:ml, file:eval.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules eval.ml > eval.ml.depends # cached
+# Target: printer.mli.depends, tags: { extension:mli, file:printer.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules printer.mli > printer.mli.depends # cached
+# Target: printer.cmi, tags: { byte, compile, extension:mli, file:printer.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o printer.cmi printer.mli # cached
+# Target: eval.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:eval.cmo, file:eval.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o eval.cmo eval.ml # cached
+# Target: infer.ml.depends, tags: { extension:ml, file:infer.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules infer.ml > infer.ml.depends # cached
+# Target: infer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:infer.cmo, file:infer.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o infer.cmo infer.ml # cached
+# Target: parse.ml.depends, tags: { extension:ml, file:parse.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules parse.ml > parse.ml.depends # cached
+# Target: lexer.mll, tags: { extension:mll, file:lexer.mll, lexer, ocaml, ocamllex, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamllex.opt -q lexer.mll # cached
+# Target: lexer.ml.depends, tags: { extension:ml, file:lexer.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules lexer.ml > lexer.ml.depends # cached
+# Target: parser.mly, tags: { extension:mly, file:parser.mly, infer, ocaml, ocamlyacc, parser, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlyacc parser.mly # cached
+# Target: parser.mli.depends, tags: { extension:mli, file:parser.mli, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules parser.mli > parser.mli.depends # cached
+# Target: parser.cmi, tags: { byte, compile, extension:mli, file:parser.mli, interf, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o parser.cmi parser.mli # cached
+# Target: lexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:lexer.cmo, file:lexer.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o lexer.cmo lexer.ml # cached
+# Target: parse.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:parse.cmo, file:parse.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o parse.cmo parse.ml # cached
+# Target: typedAst.ml.depends, tags: { extension:ml, file:typedAst.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules typedAst.ml > typedAst.ml.depends # cached
+# Target: typedAst.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:typedAst.cmo, file:typedAst.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o typedAst.cmo typedAst.ml # cached
+# Target: printer.ml.depends, tags: { extension:ml, file:printer.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules printer.ml > printer.ml.depends # cached
+# Target: printer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:printer.cmo, file:printer.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o printer.cmo printer.ml # cached
+# Target: parser.ml.depends, tags: { extension:ml, file:parser.ml, ocaml, ocamldep, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamldep.opt -modules parser.ml > parser.ml.depends # cached
+# Target: parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:parser.cmo, file:parser.ml, implem, ocaml, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml -o parser.cmo parser.ml # cached
+# Target: test.byte, tags: { byte, dont_link_with, extension:byte, file:test.byte, link, ocaml, program, quiet }
+/Users/kjk225/.opam/4.03.0/bin/ocamlc.opt -I /Users/kjk225/.opam/4.03.0/lib/oUnit -I /Users/kjk225/.opam/4.03.0/lib/ocaml unix.cma oUnitAdvanced.cma oUnit.cma str.cma ast.cmo typedAst.cmo printer.cmo eval.cmo infer.cmo parser.cmo lexer.cmo parse.cmo test.cmo -o test.byte
+# Compilation successful.

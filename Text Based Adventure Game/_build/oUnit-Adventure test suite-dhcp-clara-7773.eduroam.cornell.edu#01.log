@@ -1,0 +1,12 @@
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Start test Adventure test suite:0:initial_state.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Test Adventure test suite:0:initial_state is successful.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: End test Adventure test suite:0:initial_state.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Start test Adventure test suite:2:score.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Test Adventure test suite:2:score is successful.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: End test Adventure test suite:2:score.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Start test Adventure test suite:4:room?.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Test Adventure test suite:4:room? is successful.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: End test Adventure test suite:4:room?.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Start test Adventure test suite:6:visited.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: Test Adventure test suite:6:visited is successful.
+2016-09-25T03:42:17+00:00 dhcp-clara-7773.eduroam.cornell.edu#01 I: End test Adventure test suite:6:visited.
