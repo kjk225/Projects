@@ -347,7 +347,7 @@ module Ai = struct
       )
 
   (* [aggromovelistfilter movelist b wm pm bdf bw bwh bt bs nm bm] filters
-   * possible movelists based on priority, this is the Ai's second moveset
+   * possible movelists based on priority, this is the Ai's second moveset.
    *
    * This moveset is much more aggressive and the Ai begins to cheat more and
    * take ties
