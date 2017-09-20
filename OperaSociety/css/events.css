@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body, html{
+  margin: 0;
+  background-color: black;
+}
+#calendarTitle {
+  text-align: center;
+  font-family: Raleway;
+  background-color: #d31717;
+  color: white;
+}
+
+#calendrar {
+  position: center;
+  height: 1000px;
+}
+
+#nav_ctr, #nav_ctr1{
+  background: black;
+  width: 16.09%;
+  min-height: 100vh;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+#nav_ctr1{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition:0.5s;
+}
+
+#header_img{
+  float: left;
+  height: 100%;
+  width:83.89%;
+  position: relative;
+}
+
+#nav_ctr, #header_img, #content {
+  transition: 0.4s;
+}
+
+#show_nav_btn{
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size:50px;
+  cursor:pointer;
+  color:white;
+  background-color:rgba(211, 23, 23, 0.9);
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    background-color:rgba(211, 23, 23, 0.9);
+}
+
+img {
+  width:100%;
+  border-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: rgba(211, 23, 23, 0.7);
+  float: left;
+}
+
+.topcorner{
+   font-family: Montserrat;
+   position:absolute;
+   top:20px;
+   left:35px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+   font-weight: 500;
+}
+
+#opera_word{
+  font-weight: 500;
+  background-color: #d31717;
+}
+
+#item_ctr, #item_ctr1{
+  position: absolute;
+  bottom:240px;
+  left: 35px;
+}
+
+.bar-item {
+  width:auto;
+  color: white;
+  text-decoration: none;
+  font-family:Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.bar-item:hover{
+  background-color:#d31717;
+}
+
+#dropdown{
+  font-family: Montserrat;
+  padding-left: 20px;
+}
+
+#dropdown a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-item:hover {
+  background-color:#d31717;
+}
+
+
+#calendar, #calendar1{
+  font-family: Montserrat;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d31717;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#calendar a, #calendar1 a{
+  color: white;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#content {
+  width:83.89%;
+  font-family:Lato;
+  float:left;
+}
+
+.page_title{
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 40px 0px 40px 40px;
+}
+
+.group_desc{
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 990px) {
+  #nav_ctr, #nav_ctr1{
+    width: 0%;
+  }
+
+  #nav_ctr1{
+    display: none;
+  }
+
+  #item_ctr, #calendar{
+    display: none;
+  }
+
+  #content{
+    width: 100%;
+  }
+
+  #header_img{
+    width: 100%;
+  }
+
+  #show_nav_btn{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #nav_ctr1{
+    width: 0%;
+    display: none;
+  }
+
+}

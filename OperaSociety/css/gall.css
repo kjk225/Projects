@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  color: white;
+}
+
+.searchBar {
+  display: block;
+  font-family: Raleway;
+  width: 83.89%;
+}
+
+h2 {
+  font-family: Lato;
+}
+
+#inputSearch {
+  font-family: Montserrat;
+  border: 1px solid #444;
+  box-shadow: 0 2px 0 #000;
+  color: #888;
+  display: block;
+  float: left;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 42px;
+  text-align: center;
+  width: 250px;
+}
+
+#inputSearch:focus {
+  animation: glow 800ms ease-out infinite alternate;
+  background: linear-gradient(#600000, #900000);
+  border-color: #DAA520;
+  box-shadow: 0 0 5px rgba(255,0,0,.2), inset 0 0 5px rgba(255,0,0,.1), 0 2px 0 #000;
+  color: #efe;
+  outline: none;
+}
+
+.submit-button {
+  background: #222;
+  background: linear-gradient(#333, #222);
+  box-sizing: content-box;
+  border: 1px solid #444;
+  border-left-color: #000;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 2px 0 #000;
+  color: #fff;
+  display: block;
+  float: left;
+  font-family: 'Cabin', helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-shadow: 0 -1px 0 #000;
+  width: 80px;
+}
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+  background: #292929;
+  background: linear-gradient(#393939, #292929);
+  color: #5f5;
+  outline: none;
+}
+
+.albumTable {
+  display: block;
+  position: fixed;
+  background-color: white;
+  color: black;
+}
+
+.addPhoto {
+  display: block;
+  background-color: white;
+  color: black;
+}
+
+.delPhoto {
+  display: block
+  background-color: white;
+  color: black;
+}
+
+
+#nav_ctr, #nav_ctr1{
+  background: black;
+  width: 15.09%;
+  min-height: 180vh;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+#nav_ctr1{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#header_img{
+  float: left;
+  height: 100%;
+  width:83.89%;
+  position: relative;
+}
+
+#nav_ctr, #content {
+}
+
+#opera_word{
+  font-weight: 500;
+  background-color: #d31717;
+}
+
+#show_nav_btn{
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size:50px;
+  cursor:pointer;
+  color:white;
+  background-color:rgba(211, 23, 23, 0.9);
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    background-color:rgba(211, 23, 23, 0.9);
+}
+
+.topcorner{
+   font-family: Montserrat;
+   position:absolute;
+   top:20px;
+   left:35px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+   font-weight: 500;
+}
+
+#opera_word{
+  font-weight: 500;
+}
+
+
+#item_ctr, #item_ctr1{
+  position: absolute;
+  bottom:65%;
+  left: 35px;
+}
+
+.bar-item{
+  width:auto;
+  color: white;
+  text-decoration: none;
+  font-family:Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.bar-item:hover{
+  background-color:#d31717;
+}
+
+#dropdown{
+  font-family: Montserrat;
+  padding-left: 20px;
+}
+
+#dropdown a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-item:hover {
+  background-color:#d31717;
+}
+
+#calendar, #calendar1{
+  font-family: Montserrat;
+  color: white;
+  position: absolute;
+  bottom: 47.8%;
+  left: 20px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d31717;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#calendar a, #calendar1 a{
+  color: white;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#content {
+  width:83.89%;
+  font-family:Lato;
+  float:left;
+}
+
+.page_title{
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 40px 0px 40px 40px;
+}
+
+.group_desc{
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  background-color: black;
+  font-color: white;
+  text-align: center;
+}
+
+a {
+  font-family:Montserrat;
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+
+  #nav_ctr, #nav_ctr1{
+    width: 0%;
+  }
+
+  #nav_ctr1{
+    display: none;
+  }
+
+  #item_ctr, #calendar{
+    display: none;
+  }
+
+  #content{
+    width: 100%;
+  }
+
+  #header_img{
+    width: 100%;
+  }
+
+  #show_nav_btn{
+    display: block;
+  }
+
+  .column {
+    float: right;
+    display: block;
+  }
+
+  .searchBar {
+    float:right;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #nav_ctr1{
+    width: 0%;
+    display: none;
+  }
+
+}
+
+body {
+  margin: 0 auto;
+}
+
+.row {
+  display: inline-block;
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+td, tr {
+  font-family:Montserrat;
+}
+
+.column {
+  display: inline;
+  float: center;
+}
+
+img {
+  height: 191px;
+  width: 266px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  text-align:center;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+  float:center;
+  width: 100%;
+  color: black;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+p {
+  color:white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+#editHeader {
+  font-family: Montserrat;
+}
+
+
+#editHeader {
+  font-family: Montserrat;
+}
+
+.editClass {
+  bottom: 0;
+  float: left;
+  width: 100%;
+}

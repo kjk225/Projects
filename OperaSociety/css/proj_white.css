@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html, body {
+  width: 100%;
+}
+body {
+  margin: 0 auto;
+}
+
+#nav_ctr{
+  background: black;
+  width: 16.09%;
+  min-height: 100vh;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#nav_help{
+  position: relative;
+  z-index: -1;
+}
+
+#nav_scroll{
+  background: black;
+  width: 16.09%;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left: 0px;
+}
+
+.lengthen {
+  background: black;
+  width: 16.09%;
+  min-height: 120vh;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+#nav_ctr1{
+  background: black;
+  min-height: 100vh;
+  float: left;
+  overflow: hidden;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  transition:0.5s;
+}
+
+#header_img{
+  float: left;
+  height: 100%;
+  width: 83.89%;
+  position: relative;
+  z-index: 0;
+}
+
+#nav_ctr, #header_img, #content, #nav_help {
+  transition: 0.4s;
+}
+
+#calendar{
+  transition: 0.7s;
+}
+
+#show_nav_btn{
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size:50px;
+  cursor:pointer;
+  color:white;
+  background-color:rgba(211, 23, 23, 0.9);
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    background-color:rgba(211, 23, 23, 0.9);
+}
+
+img {
+  width:100%;
+  border-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: rgba(211, 23, 23, 0.7);
+  float: left;
+}
+
+.topcorner{
+   font-family: Montserrat;
+   position:absolute;
+   top:20px;
+   left:35px;
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+   font-weight: 500;
+}
+
+#opera_word{
+  font-weight: 500;
+  background-color: #d31717;
+}
+
+#item_ctr, #item_ctr1{
+  position: absolute;
+  bottom:240px;
+  left: 35px;
+}
+
+.bar-item {
+  width:auto;
+  color: white;
+  text-decoration: none;
+  font-family:Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.bar-item:hover{
+  background-color:#d31717;
+}
+
+#dropdown{
+  font-family: Montserrat;
+  padding-left: 20px;
+}
+
+#dropdown a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-item:hover {
+  background-color:#d31717;
+}
+
+
+#calendar{
+  font-family: Montserrat;
+  color: white;
+  position: fixed; 
+  bottom: 40px; 
+  left: 20px;
+  padding: 5px;
+  width: 12%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d31717;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#calendar a{
+  color: white;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#content {
+  width:83.89%;
+  font-family:Lato;
+  float:left;
+}
+
+.page_title{
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 40px 0px 40px 40px;
+}
+
+#login_ctr{
+  margin-left: 20px;
+}
+
+.group_desc{
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.footer {
+  float: right;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a {
+  font-family:Montserrat;
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  #nav_ctr, #nav_ctr1{
+    width: 0%;
+  }
+  
+  #nav_ctr1, #nav_help{
+    display: none;
+  }
+  
+  #nav_ctr1{
+    z-index: 1;
+  }
+  
+  #item_ctr, #calendar{
+    display: none;
+  }
+  
+  #content{
+    width: 100%;
+  }
+  
+  #header_img{
+    width: 100%;
+  }
+  
+  #show_nav_btn{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #nav_ctr1{
+    width: 0%;
+    display: none;
+  }
+
+}
+
+#editHeader {
+  font-family: Montserrat;
+}
+
+.editClass {
+  display: block;
+  bottom: 0;
+  float: left;
+  width: 100%;
+}
+
+#contact {
+  color: black;
+}
+
+
+th{
+  color:#d31717;
+  font-size: 19px;
+}
+
+table {
+  text-align: left;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+
