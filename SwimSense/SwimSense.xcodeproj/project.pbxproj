@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F866B77B1EBEC36600EDEFD8 /* TurnoverRateInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866B77A1EBEC36600EDEFD8 /* TurnoverRateInterfaceController.swift */; };
+		F866B77D1EBEC6E800EDEFD8 /* SwimModeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866B77C1EBEC6E800EDEFD8 /* SwimModeInterfaceController.swift */; };
+		F89FCC7E1EB2425D00FB24B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FCC7D1EB2425D00FB24B4 /* AppDelegate.swift */; };
+		F89FCC801EB2425D00FB24B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FCC7F1EB2425D00FB24B4 /* ViewController.swift */; };
+		F89FCC831EB2425D00FB24B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89FCC811EB2425D00FB24B4 /* Main.storyboard */; };
+		F89FCC851EB2425D00FB24B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89FCC841EB2425D00FB24B4 /* Assets.xcassets */; };
+		F89FCC881EB2425D00FB24B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89FCC861EB2425D00FB24B4 /* LaunchScreen.storyboard */; };
+		F89FCC951EB242BA00FB24B4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89FCC931EB242BA00FB24B4 /* Interface.storyboard */; };
+		F89FCC971EB242BA00FB24B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89FCC961EB242BA00FB24B4 /* Assets.xcassets */; };
+		F89FCC9E1EB242BB00FB24B4 /* SwimSense_Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F89FCC9D1EB242BA00FB24B4 /* SwimSense_Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F89FCCA51EB242BB00FB24B4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FCCA41EB242BB00FB24B4 /* InterfaceController.swift */; };
+		F89FCCA71EB242BB00FB24B4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FCCA61EB242BB00FB24B4 /* ExtensionDelegate.swift */; };
+		F89FCCA91EB242BB00FB24B4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89FCCA81EB242BB00FB24B4 /* NotificationController.swift */; };
+		F89FCCAB1EB242BB00FB24B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89FCCAA1EB242BB00FB24B4 /* Assets.xcassets */; };
+		F89FCCAF1EB242BB00FB24B4 /* SwimSense_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F89FCC911EB242BA00FB24B4 /* SwimSense_Watch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89FCC9F1EB242BB00FB24B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89FCC721EB2425C00FB24B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89FCC9C1EB242BA00FB24B4;
+			remoteInfo = "SwimSense_Watch Extension";
+		};
+		F89FCCAD1EB242BB00FB24B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89FCC721EB2425C00FB24B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89FCC901EB242BA00FB24B4;
+			remoteInfo = SwimSense_Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F89FCCB31EB242BB00FB24B4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F89FCC9E1EB242BB00FB24B4 /* SwimSense_Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89FCCB71EB242BB00FB24B4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F89FCCAF1EB242BB00FB24B4 /* SwimSense_Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F866B77A1EBEC36600EDEFD8 /* TurnoverRateInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnoverRateInterfaceController.swift; sourceTree = "<group>"; };
+		F866B77C1EBEC6E800EDEFD8 /* SwimModeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimModeInterfaceController.swift; sourceTree = "<group>"; };
+		F89FCC7A1EB2425D00FB24B4 /* SwimSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89FCC7D1EB2425D00FB24B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F89FCC7F1EB2425D00FB24B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F89FCC821EB2425D00FB24B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89FCC841EB2425D00FB24B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89FCC871EB2425D00FB24B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89FCC891EB2425D00FB24B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89FCC911EB242BA00FB24B4 /* SwimSense_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimSense_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89FCC941EB242BA00FB24B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F89FCC961EB242BA00FB24B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89FCC981EB242BA00FB24B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89FCC9D1EB242BA00FB24B4 /* SwimSense_Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwimSense_Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89FCCA31EB242BB00FB24B4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F89FCCA41EB242BB00FB24B4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F89FCCA61EB242BB00FB24B4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F89FCCA81EB242BB00FB24B4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F89FCCAA1EB242BB00FB24B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89FCCAC1EB242BB00FB24B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89FCC771EB2425D00FB24B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89FCC9A1EB242BA00FB24B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89FCC711EB2425C00FB24B4 = {
+			isa = PBXGroup;
+			children = (
+				F89FCC7C1EB2425D00FB24B4 /* SwimSense */,
+				F89FCC921EB242BA00FB24B4 /* SwimSense_Watch */,
+				F89FCCA11EB242BB00FB24B4 /* SwimSense_Watch Extension */,
+				F89FCC7B1EB2425D00FB24B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89FCC7B1EB2425D00FB24B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89FCC7A1EB2425D00FB24B4 /* SwimSense.app */,
+				F89FCC911EB242BA00FB24B4 /* SwimSense_Watch.app */,
+				F89FCC9D1EB242BA00FB24B4 /* SwimSense_Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89FCC7C1EB2425D00FB24B4 /* SwimSense */ = {
+			isa = PBXGroup;
+			children = (
+				F89FCC7D1EB2425D00FB24B4 /* AppDelegate.swift */,
+				F89FCC7F1EB2425D00FB24B4 /* ViewController.swift */,
+				F89FCC811EB2425D00FB24B4 /* Main.storyboard */,
+				F89FCC841EB2425D00FB24B4 /* Assets.xcassets */,
+				F89FCC861EB2425D00FB24B4 /* LaunchScreen.storyboard */,
+				F89FCC891EB2425D00FB24B4 /* Info.plist */,
+			);
+			path = SwimSense;
+			sourceTree = "<group>";
+		};
+		F89FCC921EB242BA00FB24B4 /* SwimSense_Watch */ = {
+			isa = PBXGroup;
+			children = (
+				F89FCC931EB242BA00FB24B4 /* Interface.storyboard */,
+				F89FCC961EB242BA00FB24B4 /* Assets.xcassets */,
+				F89FCC981EB242BA00FB24B4 /* Info.plist */,
+			);
+			path = SwimSense_Watch;
+			sourceTree = "<group>";
+		};
+		F89FCCA11EB242BB00FB24B4 /* SwimSense_Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F89FCCA41EB242BB00FB24B4 /* InterfaceController.swift */,
+				F866B77A1EBEC36600EDEFD8 /* TurnoverRateInterfaceController.swift */,
+				F866B77C1EBEC6E800EDEFD8 /* SwimModeInterfaceController.swift */,
+				F89FCCA61EB242BB00FB24B4 /* ExtensionDelegate.swift */,
+				F89FCCA81EB242BB00FB24B4 /* NotificationController.swift */,
+				F89FCCAA1EB242BB00FB24B4 /* Assets.xcassets */,
+				F89FCCAC1EB242BB00FB24B4 /* Info.plist */,
+				F89FCCA21EB242BB00FB24B4 /* Supporting Files */,
+			);
+			path = "SwimSense_Watch Extension";
+			sourceTree = "<group>";
+		};
+		F89FCCA21EB242BB00FB24B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89FCCA31EB242BB00FB24B4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89FCC791EB2425D00FB24B4 /* SwimSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89FCC8C1EB2425D00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense" */;
+			buildPhases = (
+				F89FCC761EB2425D00FB24B4 /* Sources */,
+				F89FCC771EB2425D00FB24B4 /* Frameworks */,
+				F89FCC781EB2425D00FB24B4 /* Resources */,
+				F89FCCB71EB242BB00FB24B4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89FCCAE1EB242BB00FB24B4 /* PBXTargetDependency */,
+			);
+			name = SwimSense;
+			productName = SwimSense;
+			productReference = F89FCC7A1EB2425D00FB24B4 /* SwimSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F89FCC901EB242BA00FB24B4 /* SwimSense_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89FCCB41EB242BB00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense_Watch" */;
+			buildPhases = (
+				F89FCC8F1EB242BA00FB24B4 /* Resources */,
+				F89FCCB31EB242BB00FB24B4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89FCCA01EB242BB00FB24B4 /* PBXTargetDependency */,
+			);
+			name = SwimSense_Watch;
+			productName = SwimSense_Watch;
+			productReference = F89FCC911EB242BA00FB24B4 /* SwimSense_Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F89FCC9C1EB242BA00FB24B4 /* SwimSense_Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89FCCB01EB242BB00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense_Watch Extension" */;
+			buildPhases = (
+				F89FCC991EB242BA00FB24B4 /* Sources */,
+				F89FCC9A1EB242BA00FB24B4 /* Frameworks */,
+				F89FCC9B1EB242BA00FB24B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwimSense_Watch Extension";
+			productName = "SwimSense_Watch Extension";
+			productReference = F89FCC9D1EB242BA00FB24B4 /* SwimSense_Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89FCC721EB2425C00FB24B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kanu Jason Kanu";
+				TargetAttributes = {
+					F89FCC791EB2425D00FB24B4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2SH5UD8CCE;
+						ProvisioningStyle = Automatic;
+					};
+					F89FCC901EB242BA00FB24B4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2SH5UD8CCE;
+						ProvisioningStyle = Automatic;
+					};
+					F89FCC9C1EB242BA00FB24B4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2SH5UD8CCE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F89FCC751EB2425C00FB24B4 /* Build configuration list for PBXProject "SwimSense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89FCC711EB2425C00FB24B4;
+			productRefGroup = F89FCC7B1EB2425D00FB24B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89FCC791EB2425D00FB24B4 /* SwimSense */,
+				F89FCC901EB242BA00FB24B4 /* SwimSense_Watch */,
+				F89FCC9C1EB242BA00FB24B4 /* SwimSense_Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89FCC781EB2425D00FB24B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89FCC881EB2425D00FB24B4 /* LaunchScreen.storyboard in Resources */,
+				F89FCC851EB2425D00FB24B4 /* Assets.xcassets in Resources */,
+				F89FCC831EB2425D00FB24B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89FCC8F1EB242BA00FB24B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89FCC971EB242BA00FB24B4 /* Assets.xcassets in Resources */,
+				F89FCC951EB242BA00FB24B4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89FCC9B1EB242BA00FB24B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89FCCAB1EB242BB00FB24B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89FCC761EB2425D00FB24B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89FCC801EB2425D00FB24B4 /* ViewController.swift in Sources */,
+				F89FCC7E1EB2425D00FB24B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89FCC991EB242BA00FB24B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89FCCA91EB242BB00FB24B4 /* NotificationController.swift in Sources */,
+				F89FCCA71EB242BB00FB24B4 /* ExtensionDelegate.swift in Sources */,
+				F866B77B1EBEC36600EDEFD8 /* TurnoverRateInterfaceController.swift in Sources */,
+				F89FCCA51EB242BB00FB24B4 /* InterfaceController.swift in Sources */,
+				F866B77D1EBEC6E800EDEFD8 /* SwimModeInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89FCCA01EB242BB00FB24B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89FCC9C1EB242BA00FB24B4 /* SwimSense_Watch Extension */;
+			targetProxy = F89FCC9F1EB242BB00FB24B4 /* PBXContainerItemProxy */;
+		};
+		F89FCCAE1EB242BB00FB24B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89FCC901EB242BA00FB24B4 /* SwimSense_Watch */;
+			targetProxy = F89FCCAD1EB242BB00FB24B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89FCC811EB2425D00FB24B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89FCC821EB2425D00FB24B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89FCC861EB2425D00FB24B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89FCC871EB2425D00FB24B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F89FCC931EB242BA00FB24B4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89FCC941EB242BA00FB24B4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89FCC8A1EB2425D00FB24B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F89FCC8B1EB2425D00FB24B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89FCC8D1EB2425D00FB24B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				INFOPLIST_FILE = SwimSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F89FCC8E1EB2425D00FB24B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				INFOPLIST_FILE = SwimSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F89FCCB11EB242BB00FB24B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				INFOPLIST_FILE = "SwimSense_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F89FCCB21EB242BB00FB24B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				INFOPLIST_FILE = "SwimSense_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F89FCCB51EB242BB00FB24B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				IBSC_MODULE = SwimSense_Watch_Extension;
+				INFOPLIST_FILE = SwimSense_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F89FCCB61EB242BB00FB24B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SH5UD8CCE;
+				IBSC_MODULE = SwimSense_Watch_Extension;
+				INFOPLIST_FILE = SwimSense_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cuappdev.final.SwimSense.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89FCC751EB2425C00FB24B4 /* Build configuration list for PBXProject "SwimSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89FCC8A1EB2425D00FB24B4 /* Debug */,
+				F89FCC8B1EB2425D00FB24B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89FCC8C1EB2425D00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89FCC8D1EB2425D00FB24B4 /* Debug */,
+				F89FCC8E1EB2425D00FB24B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89FCCB01EB242BB00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense_Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89FCCB11EB242BB00FB24B4 /* Debug */,
+				F89FCCB21EB242BB00FB24B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89FCCB41EB242BB00FB24B4 /* Build configuration list for PBXNativeTarget "SwimSense_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89FCCB51EB242BB00FB24B4 /* Debug */,
+				F89FCCB61EB242BB00FB24B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89FCC721EB2425C00FB24B4 /* Project object */;
+}
